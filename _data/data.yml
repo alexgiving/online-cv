@@ -4,262 +4,193 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Aleksei Trutnev
+    tagline: Deep Learning Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: alexgiving@mail.ru
+    phone: +7(915)825-21-34
+    timezone:
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    website:  #do not add http://
+    linkedin: atrutnev
+    xing:
+    github: alexgiving
+    telegram: alexgiving # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf:
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Russian
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: Music
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Driven by a passion for innovation, I am a seasoned computer science engineer specializing in Computer Vision (CV) and Natural Language Processing (NLP).
+      My expertise lies in developing cutting-edge neural network methodologies, pushing the boundaries of what is possible in AI.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Data Mining
+        university: NRU Higher School of Economics
+        time: 2023 - 2025
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          - The course headman
+
+      - degree: BSc in Applied Mathematics and Informatics
+        university: NRU Higher School of Economics
+        time: 2019 - 2023
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Bachelor's thesis: Clustering in High Dimensional Spaces
+          - Diploma with Honours
+          - The course headman
+          - 8.38 GPA
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+
+      - role: Lecturer
+        time: 2024 - Present
+        company: NRU Higher School of Economics
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Conducted a course on data analysis for 4 year students.
+
+      - role: Deep Learning Assistant Engineer
+        time: 2022 - Present
+        company: Huawei
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Devised the novel data reduction training and fine-tuning acceleration methodology
+          - Accelerated CNNs training by 20+% in classification and object detection fields
+          - Accelerated the state-of-the-art LoRA LLMs fine-tuning methodology by 20+%
+          - Authored several papers for high-ranked journals and conferences
+
+      - role: Deep Learning Intern
+        time: 2021 - 2022
+        company: Intel
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Maintained OpenCV Graph-API CI testing pipeline
+          - Optimized OpenCV G-API kernels with dynamic dispatching (CIMD OpenCV Universal Intrinsics)
+          - Participated in OpenCV releases delivering
+          - Increased camera algorithm performance with GStreamer Pipeline on VPU
+          - Implemented CI pipeline based on Github Actions for OpenCV ADE framework
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - name: English for Academic Communication
+          start: 2023
+          end: 2023
+          organization: NRU Higher School of Economics
+          credentialid:
+          credentialurl:
+          credentialname:
+          details:
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - name: Entrepreneurship
+          start: 2023
+          end: 2023
+          organization: NRU Higher School of Economics
+          credentialid: 247268
+          credentialurl:
+          credentialname:
+          details:
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: LKMeans library
+        link: https://github.com/alexgiving/LKMeans
+        tagline: |
+          LKMeans is a Python library that extends the functionality of the KMeans algorithm by allowing clusterization using the Minkowski metric instead of the traditional Euclidean distance.
+          Investigated the theoretical foundation of high-dimensional data clustering improvement.
+          Researched and developed Minkowski centroid optimization methodology.
+          Implemented from scratch centroid-based algorithm for clustering high-dimensional data.
+          Achieved up to 15% accuracy improvement on ARI and AMI metrics.
+          Successfully defended research paper before the scientific council of the university.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Education quality prediction
+        link:
+        tagline: |
+          Project for NRU Higher School of Economics. Detecting the unsuccessful students.
+          Collected large dataset of Higher School of Economics students.
+          Performed feature important analysis for detecting and prediction unsuccessful student in HSE university.
+          Implemented CI/CD pipeline for testing and collecting performance and accuracy metrics of model.
+          Delivered model with questionnaire algorithm for the needs of the university administration.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Car damage detection
+        link:
+        tagline: |
+          Project for EPAM company. Detection car damage on the video.
+          Managed a team of 3 engineers.
+          Collected custom high resolution task specific labeled dataset.
+          Introduced Fine-Tuning pipeline for Faster R-CNN model.
+          Accelerated inference of model on ARM chip by 10 times.
+          Delivered interface for EPAM customer.
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Conferences &amp; Publications
+    intro:
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Large Language Model Fine-Tuning Acceleration with Data Reduction via Losses.
+        link: https://opentalks.ai/en/timetable2024
+        authors: Demidovskij, A.; Trutnev, A.
+        conference: OpenTalks.AI, Tbilisi, Georgia, 2024
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "DAREL: Training and Fine-Tuning Acceleration of Real and Hypercomplex Models."
+        link: https://neurips.cc/virtual/2023/80703
+        authors: Demidovskij, A.; Trutnev, A.; Tugaryov, A.; Salnikov, I.; Pavlov, S.
+        conference: NeurIPS Conference, New Orleans, Louisiana, United States of America, 2023
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Implementation Challenges and Strategies for Hebbian Learning in Convolutional Neural Networks.
+        link: https://doi.org/10.3103/S1060992X23060048
+        authors: Demidovskij, A.; Kazyulina, M.; Salnikov, I.; Tugaryov A.; Trutnev A.; Pavlov S.
+        conference: Opt. Mem. Neural Networks 32 (Suppl 2), S252-S264 (2023).
+
+      - title: Lightweight and Elegant Data Reduction Strategies for Training Acceleration of Convolutional Neural Networks.
+        link: https://doi.org/10.3390/math11143120
+        authors: Demidovskij, A.; Tugaryov, A.; Trutnev, A.; Kazyulina, M.; Salnikov, I.; Pavlov, S.
+        conference: Mathematics 2023, 11, 3120.
+
+      - title: "Hebbian learning for Convolutional Neural Networks: Overview."
+        link: https://opentalks.ai/en/timetable2023
+        authors: Demidovskij, A.; Kazyulina, M.; Tugaryov, A.; Trutnev, A.
+        conference: OpenTalks.AI Conference, Yerevan, Armenia, 2023
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Python
+      - name: PyTorch
+      - name: Deep Learning
+      - name: Data Science
+      - name: Bash Scripts
+      - name: OpenCV
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Aleksei Trutnev
